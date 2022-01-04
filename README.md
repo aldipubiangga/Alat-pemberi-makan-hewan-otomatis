@@ -7,15 +7,15 @@
 * Yeriko Thomas Napitupulu  118140175 
   
 ## Alat dan Bahan
-1.   	Arduino Uno
-2.   	Breadboard
-3.   	RTC
-4.   	Servo
-5.   	Buzzer
-6.   	Sensor Ultrasonik
-7.   	Water Level Sensor
-9.   	LCD
-10.     Jumper
+*	Arduino Uno
+*	Breadboard
+*	RTC
+*	Servo
+*	Buzzer
+*	Sensor Ultrasonik
+*	Water Level Sensor
+*	LCD
+* Jumper
 
 Link demo video :
 https://youtu.be/Y9uvrzjn-SI
