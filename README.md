@@ -15,8 +15,7 @@
 6.   	Sensor Ultrasonik
 7.   	Water Level Sensor
 9.   	LCD
-10.   Jumper
-11.   Lampu Bohlam
+10.     Jumper
 
 Link demo video :
 https://youtu.be/Y9uvrzjn-SI
