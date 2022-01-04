@@ -25,4 +25,6 @@ https://youtu.be/Y9uvrzjn-SI
 <br><br>
 
 ## Referensi
-* TUTORIAL ARDUINO RTC DS3231 INDONESIA : https://www.youtube.com/watch?v=PPIQXPltNE0&t=305s <br><br>
+* Cara Mudah Membuat Pakan Ikan Otomatis Dengan Arduino : https://www.youtube.com/watch?v=ERh8n9QVtco
+* TUTORIAL ARDUINO RTC DS3231 INDONESIA                 : https://www.youtube.com/watch?v=PPIQXPltNE0&t=305s <br><br>
+* TUTORIAL LCD 16X2 ARDUINO MODUL I2C                   : https://www.youtube.com/watch?v=BPTb40hFN18&t=495s
