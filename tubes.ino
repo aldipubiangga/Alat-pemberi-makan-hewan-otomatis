@@ -5,7 +5,7 @@
 #define echo 7
 #define pinSensor A1
 
-LiquidCrystal_I2C lcd(0x27,20,4);
+LiquidCrystal_I2C lcd(0x27,16,2);
 DS3231  rtc(SDA, SCL); 
 Time  t;
 Servo myservo;
@@ -66,19 +66,19 @@ void loop() {
  
   Serial.println(rtc.getTimeStr()); //prosedur pembacaan waktu
 
-  if (jam == 06 & menit == 00 & detik == 00){
+  if (jam == 06 & menit == 00 & detik >= 00 & detik <=5){
     myservo1.write(180);
     delay(1000);
-    myservo.write(0);
+    myservo1.write(0);
     delay(1000);
   }
-  else if(jam == 18 & menit == 00 & detik == 00){
+  else if(jam == 18 & menit == 00 & detik >= 00 & detik <=5){
     myservo1.write(180);
     delay(1000);
-    myservo.write(0);
+    myservo1.write(0);
     delay(1000);
     }
-  
+
   //Kondisi Sensor ultrasonic
   digitalWrite(trig,LOW);
   delay(2);
@@ -98,13 +98,13 @@ void loop() {
   if(jarak<10){
       lcd.setCursor(8,0);
       lcd.print("Habis");
-      digitalWrite(buzzer,LOW);
+      digitalWrite(buzzer,HIGH);
       delay(500);
     }
    else if(jarak>=10){
       lcd.setCursor(8,0);
       lcd.print("Aman");
-      digitalWrite(buzzer,HIGH);
+      digitalWrite(buzzer,LOW);
       delay(500);
     }
 
@@ -117,17 +117,17 @@ void loop() {
     lcd.print("Habis");
     Serial.println("Jumlah air : Habis");
     myservo.write(180);
-    delay(1000);
+    delay(5000);
     myservo.write(0);
     delay(1000);
   }
-  else if (tinggi>500 & tinggi<=600){
+  else if (tinggi>500 & tinggi<=550){
     lcd.setCursor(8,1);
     lcd.print("Sedikit");
     Serial.println("Jumlah Air : Sedikit");
-    myservo1.write(180);
-    delay(1000);
-    myservo1.write(0);
+    myservo.write(180);
+    delay(5000);
+    myservo.write(0);
     delay(1000);
   }
   else if (tinggi>600){
