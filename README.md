@@ -17,6 +17,8 @@
 *	LCD
 * Jumper
 
-## Link demo video :
+## Penjelasan Alat dan Link demo video 
+* Alat pemberi makan otomatis ini dibuat untuk membantu memudahkan para pet owner dalam memberi makan hewan peliharaan mereka dimana 
+  alat ini dapat memberi makan secara otomatis sesuai waktu yang ditentukan.<br><br>
 https://youtu.be/Y9uvrzjn-SI
 <br><br>
