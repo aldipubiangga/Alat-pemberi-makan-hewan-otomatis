@@ -23,3 +23,6 @@
 * Link video demo dan penjelasan alat :
 https://youtu.be/Y9uvrzjn-SI
 <br><br>
+
+## Referensi
+* TUTORIAL ARDUINO RTC DS3231 INDONESIA : https://www.youtube.com/watch?v=PPIQXPltNE0&t=305s <br><br>
